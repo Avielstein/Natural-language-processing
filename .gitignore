@@ -1,4 +1,13 @@
 config.json
+kaggle.json
+
+# DNA SentencePiece Features - Generated files
+DNA_SentencePiece_Features/data/
+DNA_SentencePiece_Features/models/
+DNA_SentencePiece_Features/test_outputs/
+DNA_SentencePiece_Features/results/
+
+# AuralSent
 AuralSent/archive/
 AuralSent/archive.zip
 AuralSent/MELD.Raw.tar.gz
