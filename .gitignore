@@ -3,9 +3,15 @@ kaggle.json
 
 # DNA SentencePiece Features - Generated files
 DNA_SentencePiece_Features/data/
-DNA_SentencePiece_Features/models/
 DNA_SentencePiece_Features/test_outputs/
-DNA_SentencePiece_Features/results/
+
+# Allow vocab and model files for reproducibility
+DNA_SentencePiece_Features/models/*.model
+# But keep the vocabulary file for reference
+!DNA_SentencePiece_Features/models/dna_sp.vocab
+
+# Allow result visualizations for README
+!DNA_SentencePiece_Features/results/*.png
 
 # AuralSent
 AuralSent/archive/
